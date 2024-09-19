@@ -1,11 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class Main {
+
+    public static void main (String[] args){
+
+        int intOperandA = 1;
+        int intOperandB = 2;
+        int intOperandC = 3;
+        int intSum;
+        int intDifference;
+        int intProduct;
+        int intQuotient;
+        int intModulo;
+
+        double doubleOperandA = 1.50;
+        double doubleOperandB = 2.50;
+        double doubleOperandC = 3.50;
+        double doubleSum;
+        double doubleDifference;
+        double doubleProduct;
+        double doubleQuotient;
+        double doubleModulo;
+
+        //assign the declarations
+
+        intSum = intOperandA + intOperandB; //This assignment uses arithmetic operator +
+        intDifference = intOperandA - intOperandC; //This assignment uses arithmetic operator -
+        intProduct = intOperandA * intOperandB; //This assignment uses arithmetic operator *
+        intQuotient = intOperandA / intOperandC; //This assignment uses arithmetic operator /
+        intModulo = intOperandA % intOperandB; //This assignment uses arithmetic operator %
+
+        System.out.println("The sum using ints of " + intOperandA + " + " + intOperandB + " is " + intSum);
+        System.out.println("The difference using ints of " + intOperandA + " - " + intOperandC + " is " + intDifference);
+        System.out.println("The product using ints of " + intOperandA + " * " + intOperandB + " is " + intProduct);
+        System.out.println("The quotient using ints of " + intOperandA + " / " + intOperandC + " is " + intQuotient);
+        System.out.println("The modulo using ints of " + intOperandA + " % " + intOperandB + " is " + intModulo);
+
+        System.out.println("Now we will do the same thing for the double variables.");
+
+        doubleSum = doubleOperandA + doubleOperandB; //This assignment uses arithmetic operator +
+        doubleDifference = doubleOperandA - doubleOperandC; //This assignment uses arithmetic operator -
+        doubleProduct = doubleOperandA * doubleOperandB; //This assignment uses arithmetic operator *
+        doubleQuotient = doubleOperandA / doubleOperandC; //This assignment uses arithmetic operator /
+        doubleModulo = doubleOperandA % doubleOperandB; //This assignment uses arithmetic operator %
+
+        System.out.println("The sum using ints of " + doubleOperandA + " + " + doubleOperandB + " is " + doubleSum);
+        System.out.println("The difference using ints of " + doubleOperandA + " - " + doubleOperandC + " is " + doubleDifference);
+        System.out.println("The product using ints of " + doubleOperandA + " * " + doubleOperandB + " is " + doubleProduct);
+        System.out.println("The quotient using ints of " + doubleOperandA + " / " + doubleOperandC + " is " + doubleQuotient);
+        System.out.println("The modulo using ints of " + doubleOperandA + " % " + doubleOperandB + " is " + doubleModulo);
+
+        int numberOfkids = 3;
+        String isItRaining = "Yes";
+        double costPerGallon = 2.75;
+        int myFavoriteNumber = 33;
+        double myShoeSize = 9.5;
+        String birthMonth = "October";
+        String fullName = "Bereket Gebrehiwot";
+
+
+        System.out.println(numberOfkids);
+        System.out.println(isItRaining);
+        System.out.println(costPerGallon);
+        System.out.println(myFavoriteNumber);
+        System.out.println(myShoeSize)
+        System.out.println(birthMonth);
+        System.out.println(fullName);
+
+
+
+
+    }
+
+
+}
